@@ -9,7 +9,7 @@ function createPost(){
     let age = document.querySelector('#age').value;
     let stud = document.querySelector('#student').value;
     if(name.length>2){
-        if(age>14 && age<30){
+        if(age>13 && age<30){
             if(stud=="Student"){
                 window.location.href="calculator.html";
                 

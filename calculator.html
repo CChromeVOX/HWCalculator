@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Posty</title>
+  <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+<div class="numbers"><input class="inputNum" id="fnum"></div>
+<div id="operators">
+    <button id="plus" onclick="op='+'">+</button><br>
+    <button id="minus" onclick="op='-'">-</button><br>
+    <button id="times" onclick="op='*'">x</button><br>
+    <button id="divide" onclick="op='/'">:</button>
+</div>
+<div class="numbers"><input class="inputNum" id="snum"></div>
+<button class="equals"onclick="calc()">=</button>
+<div class="ans" id="ans"><p id="result"></p></div>
+
+<script src="calc.js"></script>
+</body>
+</html>

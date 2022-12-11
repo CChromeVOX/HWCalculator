@@ -1,0 +1,26 @@
+.inputNum{
+    border: none;
+    width: 10vw;
+    height: 10vw;
+    background-color: lightgrey;
+}
+#operators button, .equals{
+    border: none;
+    width: 2vw;
+    height: 2vw;
+    background-color: lightgrey;
+    margin: 5px;
+}
+#operators button:focus {
+    border: 1px solid rebeccapurple;
+    background-color: indianred;
+}
+.ans{
+    border: none;
+    width: 10vw;
+    height: 10vw;
+    background-color: lightgrey;
+}
+body{
+    display: flex;
+}
